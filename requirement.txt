@@ -1,0 +1,10 @@
+django
+djangorestframework
+django-filter
+django-cors-headers
+drfdocs
+ddt
+pytest
+pytest-django
+pytest-cov
+pytest-xdist
