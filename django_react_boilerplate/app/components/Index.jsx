@@ -6,7 +6,9 @@ const Index = React.createClass({
     console.log(django)
 
     return (
-      <div>Hello django-react!</div>
+      <div>
+        <div>Hello django-react!</div>
+      </div>  
     )
   }
 })
