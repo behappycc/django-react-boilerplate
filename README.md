@@ -8,9 +8,9 @@
 windows: https://nodejs.org/en/
 
 linux: 
-wget -qO- https://deb.nodesource.com/setup_7.x | sudo bash -
-sudo apt-get install -y nodejs
-sudo apt-get install npm
+* curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+* sudo apt-get install -y nodejs
+* npm install webpack -g
 
 ###Usage
 ```
@@ -20,4 +20,5 @@ webpack
 python3 manage.py check
 python3 manage.py makemigrations
 python3 manage.py migrate
+python3 manage.py runserver 0.0.0.0:8000
 ```
