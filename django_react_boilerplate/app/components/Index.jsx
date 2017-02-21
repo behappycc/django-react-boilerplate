@@ -1,7 +1,11 @@
 var React = require('react');
 
-const Index = React.createClass({
-  render: function () {
+class Index extends React.Component{
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
     const django = 'django';
     console.log(django)
 
@@ -11,6 +15,6 @@ const Index = React.createClass({
       </div>  
     )
   }
-})
+}
 
 module.exports = Index;
